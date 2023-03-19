@@ -1,0 +1,205 @@
+@import url('./bike-page.css');
+@import url('./city-page.css');
+@import url('./head-page.css');
+@import url('./question-page.css');
+@import url('./route-page.css');
+
+@font-face {
+  font-family: 'Nunito';
+  src: url("../fonts/Nunito/static/Nunito-Medium.ttf");
+}
+
+@font-face {
+  font-family: 'Nunito-Regular';
+  src: url("../fonts/Nunito/static/Nunito-Light.ttf");
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url("../fonts/Raleway/static/Raleway-Bold.ttf");
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url("../fonts/Raleway/static/Raleway-Medium.ttf");
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url("../fonts/Roboto/Roboto-Medium.ttf");
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url("../fonts/Roboto/Roboto-Light.ttf");
+}
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url("../fonts/Roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: url("../fonts/Roboto/Roboto-Bold.ttf");
+}
+
+@font-face {
+  font-family: 'Roboto-Black';
+  src: url("../fonts/Roboto/Roboto-Black.ttf");
+}
+
+
+main {
+  display: grid;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  width: 1440px;
+  background: #FFFFFF;
+  display: grid;
+}
+
+
+
+
+
+
+footer {
+  height: 415px;
+  width: 1440px;
+  background: #000000;
+}
+
+.nav-list {
+  height: 290px;
+  padding: 60px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.nav-smedia-around {
+  height: 55px;
+  width: 130px;
+
+  background: linear-gradient(286.4deg, #8DC1FF 30.45%, #D4E8FF 71.02%);
+  border-radius: 70px;
+}
+
+.nav-smedia {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nav-smedia-around {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-smedia-around a {
+  text-decoration: none;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 140%;
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.nav-smedia-svg {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.nav-links a {
+  font-family: 'Nunito';
+  font-style: normal;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+  text-align: center;
+
+  color: #E5E5E5;
+}
+
+.nav-docs {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 30px;
+}
+
+.nav-docs a {
+  font-family: 'Nunito';
+  font-style: normal;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+
+  color: #757475;
+}
+
+.line {
+  border: 1px solid #757475;
+  width: 1191px;
+  margin: auto;
+}
+
+.nav-email a {
+  font-family: 'Nunito-Regular';
+  font-style: normal;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+
+  color: #E5E5E5;
+}
+
+.rights span {
+  font-family: 'Nunito-Regular';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+
+  color: #757475;
+}
+
+.rights {
+  padding-top: 40px;
+
+  width: 1191px;
+  margin: auto;
+}
+
+
+
+
+
+
+
+  
+
+

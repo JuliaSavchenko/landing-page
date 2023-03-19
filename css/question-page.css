@@ -1,0 +1,381 @@
+.questions-page {
+  max-height: 1988px;
+}
+
+.instructions-page {
+  width: 1190px;
+  height: 563px;
+
+  display: flex;
+  margin: 0 auto;
+  padding: 55px;
+  flex-direction: column;
+  justify-content: space-between;
+
+  transform: translateY(-159px);
+
+  background: #FFFFFF;
+
+  box-shadow: 9px 7px 15px 6px rgba(194, 194, 194, 0.18);
+  border-radius: 55px;
+}
+
+.instructions-content {
+  gap: 53px;
+  display: flex;
+}
+
+.instructions-header {
+  width: 583px;
+  height: 35px;
+
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+
+  color: #000000;
+}
+
+.instructions-button {
+  width: 460px;
+  height: 55px;
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  box-shadow: 9px 7px 15px 6px rgba(194, 194, 194, 0.18);
+  border-radius: 50px;
+}
+
+.instructions-button a {
+  width: 352px;
+  height: 25px;
+
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  text-decoration: none;
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.instructions-column {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.instructions-column-content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+
+.instructions-column-header {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 130%;
+
+  color: #000000;
+}
+
+.instructions-column-text {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+
+  color: #000000;
+}
+
+.question-block {
+  max-width: 1200px;
+  max-height: 942px;
+  margin: auto;
+
+  transform: translateY(-82px);
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.question-block-content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.question-block-header {
+  width: 248px;
+  height: 35px;
+
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+
+  color: #000000;
+}
+
+.question-card-header {
+  width: 478px;
+  height: 44px;
+
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 135%;
+
+  color: #000000;
+}
+
+.question-block-card {
+  width: 682px;
+  height: 94px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  background: #FFFFFF;
+
+  box-shadow: 9px 7px 15px 6px rgba(194, 194, 194, 0.18);
+  border-radius: 15px;
+}
+
+.question-block-card:nth-child(2) {
+  padding: 33px;
+  height: 292px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.question-block-card-container {
+  display: flex;
+  gap: 41px;
+}
+
+.question-card-text {
+  width: 469px;
+  height: 176px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+
+  color: #000000;
+}
+
+.question-card-number {
+  width: 26px;
+  height: 26px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 100%;
+  background: #000000;
+}
+
+.question-card-number span {
+  width: 9px;
+  height: 18px;
+
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+
+  color: #FFFFFF;
+}
+
+.question-card-header span {
+  white-space: break-spaces;
+}
+
+.questions-banner {
+  width: 1190px;
+  height: 225px;
+  margin: auto;
+
+  display: flex;
+  justify-content: space-evenly;
+
+  background: linear-gradient(270deg, #8DC1FF 8.82%, #D0E5FF 91.3%);
+
+  box-shadow: 9px 7px 15px 6px rgba(194, 194, 194, 0.18);
+  border-radius: 55px;
+}
+
+.questions-banner-content {
+  display: flex;
+  flex-direction: column;
+  gap: 67px;
+}
+
+.questions-banner-text {
+  width: 644px;
+  height: 70px;
+
+  text-align: start;
+  white-space: pre-line;
+
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+
+  color: #000000;
+}
+
+.questions-banner-button {
+  width: 307px;
+  height: 55px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #000000;
+
+  box-shadow: 9px 7px 15px 6px rgba(194, 194, 194, 0.18);
+  border-radius: 50px;
+}
+
+.questions-banner-button a {
+  width: 160px;
+  height: 25px;
+
+  text-decoration: none;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 140%;
+
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+
+.questions-mailing {
+  width: 1190px;
+  height: 418px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.questions-mailing-form {
+  display: flex;  
+  gap: 30px;
+  position: relative;
+}
+
+.miling-form-content {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.questions-mailing-header {
+  width: 783px;
+  height: 94px;
+  white-space: pre-line;  
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+}
+
+.mailing-form-input input {
+  width: 554px;
+  height: 55px;
+
+  background: #FFFFFF;
+
+  border: 1px solid #CCCCCC;
+
+  box-shadow: 9px 7px 15px 6px rgba(194, 194, 194, 0.18);
+  border-radius: 50px;
+}
+
+.mailing-form-input label {
+  position: absolute;
+  transform: translateY(18px) translateX(-530px);
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #999999;
+}
+
+.mailing-form-button a {
+  width: 114px;
+  height: 25px;
+
+  text-decoration: none;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.mailing-form-button {
+  width: 253px;
+  height: 55px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(270deg, #8DC1FF 16.4%, #D0E5FF 83.4%);
+
+  box-shadow: 9px 7px 15px 6px rgba(194, 194, 194, 0.18);
+  border-radius: 50px;
+}
+
+.mailing-form-text {
+  padding-left: 15px;
+  width: 475px;
+  height: 19px;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #CCCCCC;
+}
