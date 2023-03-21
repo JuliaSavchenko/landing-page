@@ -81,6 +81,7 @@ background: linear-gradient(289.04deg, #8DC1FF 41.26%, #D0E5FF 85.53%);
 border-radius: 55px;
 }
 
+/* Старайся избегать использования * т.к. спецификация селекторов начинается справа налево */
 .adv-route-cards > * {
 height: 462px;
 width: 266px;
@@ -224,7 +225,7 @@ font-style: normal;
 font-weight: 700;
 font-size: 56px;
 line-height: 130%;
-transform: translateX(105px) translateY(-120px);
+transform: translateX(105px) translateY(-120px); /*translate(105px, -120px)*/
 width: 23px;
 height: 10px;
 

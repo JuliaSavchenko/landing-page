@@ -4,6 +4,7 @@
 @import url('./question-page.css');
 @import url('./route-page.css');
 
+/* шрифты подключаются в самом начале */
 @font-face {
   font-family: 'Nunito';
   src: url("../fonts/Nunito/static/Nunito-Medium.ttf");
@@ -63,6 +64,7 @@ body {
   width: 1440px;
   background: #FFFFFF;
   display: grid;
+  /* сюда нужно вписать дефолтный шрифт, чтобы его везде не прописывать */
 }
 
 
