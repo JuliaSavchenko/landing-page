@@ -8,6 +8,7 @@
   <title>Веломаршруты</title>
 </head>
 <body>
+  <!-- тут main не нужен -->
   <main>
     <header>
       <div class="main-header">
@@ -16,12 +17,15 @@
             Around
           </a>
         </div>
+        <!-- Навигация внутри тега nav
+        Дальше ненумерованный список ul>li>a -->
         <div class="header-nav">
           <a href="" class="nav-link">Маршруты</a>
           <a href="" class="nav-link">О городе</a>
           <a href="" class="nav-link">Прокат велосипедов</a>
           <a href="" class="nav-link">Контакты</a>
         </div>
+        <!-- curt -> cart -->
         <div class="header-curt">
           <a href="" >Корзина</a>
         </div>
@@ -30,12 +34,16 @@
           <h3>Откройте город для жизни, а не для машин</h3>
           <span>Прокатитесь на велосипеде по самым тихим улицам и зелёным местам Москвы 
             и посмотрите на город под новым углом</span>
-          <button><span>Узнать как</span></button>
+          <button>
+            <!-- span не обязателен -->
+            <span>Узнать как</span>
+          </button>
         </div>
         <div class="header-image">
           <img src="./img/cycle.jpg" alt="">
         </div>
     </header>
+    <!-- main>section*4 вместо div*4 -->
       <div class="route-page">
          <div class="route-adv-page">
           <div class="route-adv-back">
@@ -248,6 +256,7 @@
               </span>
             </div>
             <div class="caption">
+              <!-- caption-n -> caption-item или что-то вроде этого -->
               <span class="caption-1">Руководитель Around</span>
               <span class="caption-2">Ольга Стравицкая</span>
             </div>
@@ -259,6 +268,7 @@
       </div>
       <div class="city-page">
         <div class="city-header">
+          <!-- city-header-h1 -> city-header-heading -->
           <div class="city-header-h1">
             <h1>Другая Москва</h4>
           </div>
@@ -275,20 +285,24 @@
           <img class="city-img-forth" src="/img/unsplash_fKVh5V1URn4-4.png" alt="">
           <img class="city-img-fifth"src="/img/unsplash_fHB9BK_MSIY-5.png" alt="">
         </div>
+        <!-- избегать использования числительных и чисел -->
         <div class="city-text-two">
             <span>Маршруты построены так, чтобы кататься было удобно, комфортно и безопасно. Мы используем велоимфраструктуру города 
               и предлагаем только те маршруты, которые проходят 
               по велодорожкам на тихих и в парках. Парковки есть везде, 
               мы проверили</span>
         </div>
+        <!-- избегать использования числительных и чисел -->
         <div class="city-images-two">
           <img src="/img/image2.png" alt="">
         </div>
+        <!-- избегать использования числительных и чисел -->
         <div class="city-text-three">
             <span>Город — это не только архитектура и пейзажи, но и культурная жизнь. Наши маршруты спланированы так, чтобы вы могли посетить самые интересные площадки, а в конце маршрута всегда можно отдохнуть 
               и перекусить. Гастрономическая жизнь города тоже 
               не пройдёт мимо</span>
         </div>
+        <!-- избегать использования числительных и чисел -->
         <div class="city-images-three">
           <img src="./img/image3.png" alt="">
         </div>
@@ -300,11 +314,13 @@
             Представляем вам Велобайк</h4>
         </div>
         <div class="bike-content">
+          <!-- избегать использования числительных и чисел -->
           <div class="number-twenty-three">23</div>
           <div class="bike-number-text">
             <span>Точек проката велосипедов
               Велобайк есть в Москве</span>
           </div>
+          <!-- избегать использования числительных и чисел -->
           <div class="number-sixty-five">65
             <img class="number-details" src="./img/adv.png">
           </div>
@@ -513,6 +529,7 @@
         </div>
       </div>
     <footer>
+      <!-- div.nav-list -> nav -->
       <div class="nav-list">
         <div class="nav-smedia">
           <div class="nav-smedia-around">

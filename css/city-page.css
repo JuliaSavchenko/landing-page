@@ -48,7 +48,7 @@
 }
 
 .city-img-ellipse-1 {
-	transform: translateY(-102px) translateX(-326px);
+	transform: translateY(-102px) translateX(-326px); /* объединить можно */
 }
 
 .city-images-two {
