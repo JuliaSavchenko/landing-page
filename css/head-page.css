@@ -7,11 +7,21 @@ header {
 }
 
 .main-header {
-  display: flex;
-  gap: 150px;
-  margin-top: 30px;
-  width: 90%;
-  height: 55px;
+    display: flex;
+    margin-top: 30px;
+    width: 82%;
+    height: 55px;
+    justify-content: space-between;
+}
+
+.header-heading {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.1rem;
+  line-height: 110%;
+  color: #000000;
+  transform: translate(132px, -181px);
 }
 
 .header-content {
@@ -52,11 +62,10 @@ header {
 
 .header-nav {
   justify-items: center;
-  width: 51%;
+  width: 54%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-
   border-radius: 70px;
   background: #ffffff;
   box-shadow: 9px 7px 15px 6px rgba(194, 194, 194, 0.18);
@@ -108,17 +117,21 @@ header {
 }
 
 .header-info {
-  width: 775px;
-  height: 329px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-}
 
+
+  gap: 30px;
+  margin-top: 30px;
+
+  transform: translate(-346px, -546px);
+  width: 33%;
+} 
 
 .header-image {
   z-index: -1;
-  transform: translate(-166px, -76px);
+  transform: translate(-155px, -76px);
   width: 48%;
 }
 
@@ -134,7 +147,6 @@ header {
 #mobile {
   display: none;
 }
-
 
 .header-info h3 {
   margin: 0;
