@@ -1,124 +1,135 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/style.css">
-  <title>Веломаршруты</title>
-</head>
-<body>
-  <main>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mob.css">
+    <title>Веломаршруты</title>
+  </head>
+  <body>
     <header>
       <div class="main-header">
-        <div class="header-logo">
-          <a href="">
-            Around
-          </a>
+        <a class="header-logo" href=""> Around </a>
+        <div class="header-group">
+          <div class="header-nav-mb">
+            <img src="./img/fi_menu.png" alt="">
+          </div>
+          <div class="header-cart-mb">
+            <img src="./img/cart.png" alt="">
+          </div>
         </div>
-        <div class="header-nav">
-          <a href="" class="nav-link">Маршруты</a>
-          <a href="" class="nav-link">О городе</a>
-          <a href="" class="nav-link">Прокат велосипедов</a>
-          <a href="" class="nav-link">Контакты</a>
-        </div>
-        <div class="header-curt">
-          <a href="" >Корзина</a>
+        <nav class="header-nav">
+          <ul class="nav-links-list">
+            <li class="nav-link"><a href="">Маршруты</a></li>
+            <li class="nav-link"><a href="">О городе</a></li>
+            <li class="nav-link"><a href="">Прокат велосипедов</a></li>
+            <li class="nav-link"><a href="">Контакты</a></li>
+          </ul>
+        </nav>
+        <div class="header-cart">
+          <a href="">Корзина</a>
         </div>
       </div>
-        <div class="header-info">
-          <h3>Откройте город для жизни, а не для машин</h3>
-          <span>Прокатитесь на велосипеде по самым тихим улицам и зелёным местам Москвы 
-            и посмотрите на город под новым углом</span>
-          <button><span>Узнать как</span></button>
-        </div>
+      <div class="header-content">
+        <h3 class="header-heading">Откройте город для жизни, <p>а не для машин</p></h3>   
         <div class="header-image">
-          <img src="./img/cycle.jpg" alt="">
+          <img id="desktop" src="./img/cycle.png" alt=""/>
+          <img id="mobile" src="./img/cycle-mb.png" alt=""/>
         </div>
+      </div>
+      <div class="header-info">
+        <span
+          >Прокатитесь на велосипеде по самым тихим улицам и зелёным местам
+          Москвы и посмотрите на город под новым углом</span>
+        <button>Узнать как</button>
+      </div>  
     </header>
-      <div class="route-page">
-         <div class="route-adv-page">
-          <div class="route-adv-back">
-            <div class="adv-back-header">
-              <h3>
-                Мы знаем толк в велопрогулках
-              </h3>
-              <span>
-                Спланировали веломаршруты и учли все что может сделать велопрогулки удобными, интересными 
-                и полезными лично вам
-              </span>
-            </div>
+    <main>
+      <section class="route-page">
+        <div class="route-adv-back">
+          <div class="adv-back-header">
+            <h3>Мы знаем толк в велопрогулках</h3>
+            <span>
+              Спланировали веломаршруты и учли все что может сделать
+              велопрогулки удобными, интересными и полезными лично вам
+            </span>
           </div>
-        <div class="adv-route-cards">
-          <div class="adv-card">
-            <div class="adv-card-content">
-              <div class="adv-card-header">
-                <h5>Зелёные 
-                  маршруты</h5>
-              </div>
-              <div class="adv-card-text">
-                <span>Развеиваем миф, 
-                  что Москва это город для авто, у нас только зелёные маршруты 
-                  и тихие улицы</span>
+          <div class="adv-route-cards">
+            <div class="adv-card">
+              <div class="adv-card-content">
+                <div class="adv-card-header">
+                  <h5>Зелёные маршруты</h5>
+                </div>
+                <div class="adv-card-text">
+                  <span
+                    >Развеиваем миф, что Москва это город для авто, у нас только
+                    зелёные маршруты и тихие улицы</span
+                  >
                 </div>
               </div>
               <div class="adv-card-img">
-                <img src="./img/image 43.jpg" alt="">
+                <img src="./img/tree.jpg" alt="" />
               </div>
             </div>
             <div class="adv-card">
               <div class="adv-card-content">
                 <div class="adv-card-header">
-                  <h5>Бесплатные
-                    поездки
-                    </h5>
+                  <h5>Бесплатные поездки</h5>
                 </div>
                 <div class="adv-card-text">
-                  <span>Заплатить можете только за аудиогид 
-                    и прокат велосипеда, если сами захотите</span>
-                </div> 
+                  <span
+                    >Заплатить можете только за аудиогид и прокат велосипеда,
+                    если сами захотите</span
+                  >
+                </div>
               </div>
               <div class="adv-card-img">
-                <img src="./img/image 44.jpg" alt="">
+                <img src="./img/rub.jpg" alt="" />
               </div>
             </div>
             <div class="adv-card">
               <div class="adv-card-content">
                 <div class="adv-card-header">
-                  <h5>Легко найти 
-                    парковку</h5>
+                  <h5>Легко найти парковку</h5>
                 </div>
                 <div class="adv-card-text">
-                  <span>В начале и в конце пути сразу несколько стоянок и парковок для велосипедов. 
-                    Место точно найдётся</span>
-                </div> 
+                  <span
+                    >В начале и в конце пути сразу несколько стоянок и парковок
+                    для велосипедов. Место точно найдётся</span
+                  >
+                </div>
               </div>
               <div class="adv-card-img">
-                <img src="./img/image 45.jpg" alt="">
+                <img src="./img/hand.jpg" alt="" />
               </div>
             </div>
             <div class="adv-card">
               <div class="adv-card-content">
                 <div class="adv-card-header">
-                  <h5>Классный
-                    аудиогид</h5>
+                  <h5>Классный аудиогид</h5>
                 </div>
                 <div class="adv-card-text">
-                  <span>Записали его вместе с топовыми инфлюэнсерами. 
-                    О Москве они знают всё</span>
+                  <span
+                    >Записали его вместе с топовыми инфлюэнсерами. О Москве они
+                    знают всё</span
+                  >
                 </div>
               </div>
               <div class="adv-card-img">
-                <img src="./img/image 46.jpg" alt="">
+                <img src="./img/ear.jpg" alt="" />
               </div>
             </div>
           </div>
         </div>
-        <div class="route-page-header">Составили <span>самые</span> интересные 
-          маршруты, чтобы <span>вы</span> отдохнули от городской суеты</div>
+        <div class="route-page-header">
+          Составили  <span>самые</span>  интересные маршруты, чтобы 
+          <span>вы</span>   отдохнули от городской суеты
+        </div>
         <div class="route-page-cards">
           <div class="route-page-card">
-            <img src="./img/unsplash_UO02gAW3c0c.jpg" alt="">
+            <img src="./img/unsplash_UO02gAW3c0c.jpg" alt="" />
             <div class="route-card-content">
               <div class="route-card-location">
                 <div class="card-place">
@@ -137,7 +148,7 @@
             </div>
           </div>
           <div class="route-page-card">
-            <img src="./img/unsplash_tH3e-4QTuwk.jpg" alt="">
+            <img src="./img/unsplash_tH3e-4QTuwk.jpg" alt="" />
             <div class="route-card-content">
               <div class="route-card-location">
                 <div class="card-place">
@@ -145,48 +156,10 @@
                   <span>Строгино</span>
                 </div>
                 <div class="route-card-header">
-                  <span>Наперегонки с ветром:
-                    Серебряный бор и обводной канал</span>
-                </div> 
-              </div>
-              <div class="route-card-info">
-                <div>10 км</div> 
-                <div>2 часа</div> 
-                <div>Сложный маршрут</div>
-              </div>
-            </div>
-          </div>
-          <div class="route-page-card">
-            <img src="./img/unsplash_GnyEIuAkdFY.jpg" alt="">
-            <div class="route-card-content">
-              <div class="route-card-location">
-                <div class="card-place">
-                  <div class="card-circle green"></div>
-                  <span>ВДНХ</span>
+                  <span
+                    >Наперегонки с ветром: Серебряный бор и обводной канал</span
+                  >
                 </div>
-                <div class="route-card-header">
-                  <span>Север помнит:
-                    Ботанический сад и ВДНХ</span>
-                  </div>
-              </div>
-                <div class="route-card-info">
-                  <div>10 км</div>
-                  <div>2 часа</div>
-                  <div>Сложный маршрут</div>
-                </div>
-            </div>
-          </div>
-          <div class="route-page-card">
-            <img src="./img/unsplash_g_gwdpsCVAY.jpg" alt="">
-            <div class="route-card-content">
-              <div class="route-card-location">
-                <div class="card-place">
-                  <div class="card-circle green"></div>
-                  <span>Тверская</span>
-                </div>
-                <div class="route-card-header">
-                  <span>Москва - большая деревня:Царицино</span>
-                </div> 
               </div>
               <div class="route-card-info">
                 <div>10 км</div>
@@ -196,7 +169,44 @@
             </div>
           </div>
           <div class="route-page-card">
-            <img src="./img/unsplash_3wFRlwS91yk.jpg" alt="">
+            <img src="./img/unsplash_GnyEIuAkdFY.jpg" alt="" />
+            <div class="route-card-content">
+              <div class="route-card-location">
+                <div class="card-place">
+                  <div class="card-circle green"></div>
+                  <span>ВДНХ</span>
+                </div>
+                <div class="route-card-header">
+                  <span>Север помнит: Ботанический сад и ВДНХ</span>
+                </div>
+              </div>
+              <div class="route-card-info">
+                <div>10 км</div>
+                <div>2 часа</div>
+                <div>Сложный маршрут</div>
+              </div>
+            </div>
+          </div>
+          <div class="route-page-card">
+            <img src="./img/unsplash_g_gwdpsCVAY.jpg" alt="" />
+            <div class="route-card-content">
+              <div class="route-card-location">
+                <div class="card-place">
+                  <span>Тверская</span>
+                </div>
+                <div class="route-card-header">
+                  <span>Москва - большая деревня:Царицино</span>
+                </div>
+              </div>
+              <div class="route-card-info">
+                <div>10 км</div>
+                <div>2 часа</div>
+                <div>Сложный маршрут</div>
+              </div>
+            </div>
+          </div>
+          <div class="route-page-card">
+            <img src="./img/unsplash_3wFRlwS91yk.jpg" alt="" />
             <div class="route-card-content">
               <div class="route-card-location">
                 <div class="card-place">
@@ -215,7 +225,7 @@
             </div>
           </div>
           <div class="route-page-card">
-            <img src="./img/unsplash_3dWHehRG6Ns.jpg" alt="">
+            <img src="./img/unsplash_3dWHehRG6Ns.jpg" alt="" />
             <div class="route-card-content">
               <div class="route-card-location">
                 <div class="card-place">
@@ -226,87 +236,120 @@
                   <span>Зелёные кроны столицы</span>
                 </div>
               </div>
-              <div class="route-card-info"> 
+              <div class="route-card-info">
                 <div>10 км</div>
                 <div>2 часа</div>
                 <div>Сложный маршрут</div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="route-page-all">
-          <button>Показать все маршруты</button>
+          <div class="route-page-all">
+            <button>Показать все маршруты</button>
+          </div>
         </div>
         <div class="route-page-quote">
           <div class="quote">"</div>
           <div class="quote-text">
             <div class="quote-container">
               <span class="quote-content">
-                Сделали маршруты бесплатными потому что не мы их придумали.
-                Мы просто оптимизировали и собрали, чтобы кататься было удобнее. Но если вы захотите нас поддержать, то есть аудиогиды, мы их записали с блогерами и москваведами.
-                Получилось классно.
+                Сделали маршруты бесплатными потому что не мы их придумали. Мы
+                просто оптимизировали и собрали, чтобы кататься было удобнее. Но
+                если вы захотите нас поддержать, то есть аудиогиды, мы их
+                записали с блогерами и москваведами. Получилось классно.
               </span>
             </div>
-            <div class="caption">
-              <span class="caption-1">Руководитель Around</span>
-              <span class="caption-2">Ольга Стравицкая</span>
+            <div class="caption-n">
+              <span class="caption-item">Руководитель Around</span>
+              <span class="caption-item">Ольга Стравицкая</span>
             </div>
           </div>
           <div class="quote-img">
-            <img src="./img/photo.png" alt="">
+            <img src="./img/photo.png" alt="" />
           </div>
         </div>
-      </div>
-      <div class="city-page">
+      </section>
+      <section class="city-page">
         <div class="city-header">
-          <div class="city-header-h1">
-            <h1>Другая Москва</h4>
+          <div class="city-header-heading">
+            <span>Другая Москва</span>
           </div>
           <div class="city-text">
-            <span>Мы хотим дать взглянуть на Москву под новым углом. У нас вы 
-              не найдёте банальных маршрутов и открыточных видов. Каждый из них мы создавали специально, чтобы вы смогли открыть для себя новое о городе</span>
+            <span
+              >Мы хотим дать взглянуть на Москву под новым углом. У нас вы не
+              найдёте банальных маршрутов и открыточных видов. Каждый из них мы
+              создавали специально, чтобы вы смогли открыть для себя новое о
+              городе</span
+            >
           </div>
         </div>
-        <div class="city-images-one"> 
-          <img class="city-img-first" src="./img/unsplash_oNsCYoDVhuM-1.png" alt="">
-          <img class="city-img-second" src="./img/unsplash_T1XrNbWvxeE-2.png" alt="">
-          <img class="city-img-third" src="/img/unsplash_aN8qbeJPdJI-3.png" alt="">
-          <img class="city-img-ellipse-1" src="./img/ellipse-1.png" alt=""></img>
-          <img class="city-img-forth" src="/img/unsplash_fKVh5V1URn4-4.png" alt="">
-          <img class="city-img-fifth"src="/img/unsplash_fHB9BK_MSIY-5.png" alt="">
+        <div class="city-images">
+          <img
+            class="city-img-first"
+            src="./img/unsplash_oNsCYoDVhuM-1.png"
+            alt=""
+          />
+          <img
+            class="city-img-second"
+            src="./img/unsplash_T1XrNbWvxeE-2.png"
+            alt=""
+          />
+          <img
+            class="city-img-third"
+            src="/img/unsplash_aN8qbeJPdJI-3.png"
+            alt=""
+          />
+          <img class="city-img-ellipse-1" src="./img/ellipse-1.png" alt="" />
+          <img
+            class="city-img-forth"
+            src="/img/unsplash_fKVh5V1URn4-4.png"
+            alt=""
+          />
+          <img
+            class="city-img-fifth"
+            src="/img/unsplash_fHB9BK_MSIY-5.png"
+            alt=""
+          />
         </div>
-        <div class="city-text-two">
-            <span>Маршруты построены так, чтобы кататься было удобно, комфортно и безопасно. Мы используем велоимфраструктуру города 
-              и предлагаем только те маршруты, которые проходят 
-              по велодорожкам на тихих и в парках. Парковки есть везде, 
-              мы проверили</span>
+        <div class="city-text">
+          <span
+            >Маршруты построены так, чтобы кататься было удобно, комфортно и
+            безопасно. Мы используем велоимфраструктуру города и предлагаем
+            только те маршруты, которые проходят по велодорожкам на тихих и в
+            парках. Парковки есть везде, мы проверили</span
+          >
         </div>
-        <div class="city-images-two">
-          <img src="/img/image2.png" alt="">
+        <div class="city-image">
+          <img src="/img/image2.png" alt="" />
         </div>
-        <div class="city-text-three">
-            <span>Город — это не только архитектура и пейзажи, но и культурная жизнь. Наши маршруты спланированы так, чтобы вы могли посетить самые интересные площадки, а в конце маршрута всегда можно отдохнуть 
-              и перекусить. Гастрономическая жизнь города тоже 
-              не пройдёт мимо</span>
+        <div class="city-text">
+          <span
+            >Город — это не только архитектура и пейзажи, но и культурная жизнь.
+            Наши маршруты спланированы так, чтобы вы могли посетить самые
+            интересные площадки, а в конце маршрута всегда можно отдохнуть и
+            перекусить. Гастрономическая жизнь города тоже не пройдёт мимо</span
+          >
         </div>
-        <div class="city-images-three">
-          <img src="./img/image3.png" alt="">
+        <div class="city-image">
+          <img src="./img/image3.png" alt="" />
         </div>
-      </div>
-      <div class="bike-page">
-        <div class="bake-header">
-          <h4>Если <span>нет</span> велосипеда - 
-            это не страшно.
-            Представляем вам Велобайк</h4>
+      </section>
+      <section class="bike-page">
+        <div class="bike-header">
+          <h4>
+            Если <span>нет</span> велосипеда - это не страшно. Представляем вам
+            Велобайк
+          </h4>
         </div>
         <div class="bike-content">
-          <div class="number-twenty-three">23</div>
-          <div class="bike-number-text">
-            <span>Точек проката велосипедов
-              Велобайк есть в Москве</span>
+          <div class="bike-content-item-num">23</div>
+          <div class="bike-content-item">
+            <span>Точек проката велосипедов Велобайк есть в Москве</span>
           </div>
-          <div class="number-sixty-five">65
-            <img class="number-details" src="./img/adv.png">
+          <div class="bike-content-item-num">
+            65
+          </div>
+          <div class="bike-item-details">
+            <img src="./img/about.png" alt=""/>
           </div>
         </div>
         <div class="bike-text-container">
@@ -315,8 +358,10 @@
               <span>Запас прочности</span>
             </div>
             <div class="bike-text-content">
-              <span>Даже естли вы решили устроить заезд 
-                по Воробьевым горам, Велобайк справится: рамы велосипедов расчитаны на 150 кг</span>
+              <span
+                >Даже естли вы решили устроить заезд по Воробьевым горам,
+                Велобайк справится: рамы велосипедов расчитаны на 150 кг</span
+              >
             </div>
           </div>
           <div class="bike-text">
@@ -324,7 +369,11 @@
               <span>Безопасность</span>
             </div>
             <div class="bike-text-content">
-              <span>Мы думаем о безопасности и в бордачок велосипеда положили антисептик, чтобы вы могли протереть руки. Это не обязательно, но мы советуем</span>
+              <span
+                >Мы думаем о безопасности и в бордачок велосипеда положили
+                антисептик, чтобы вы могли протереть руки. Это не обязательно,
+                но мы советуем</span
+              >
             </div>
           </div>
           <div class="bike-text">
@@ -332,49 +381,58 @@
               <span>Электровелосипеды</span>
             </div>
             <div class="bike-text-content">
-              <span>Для ленивых воскресных прогулок советуем брать электровелосипеды</span>
+              <span
+                >Для ленивых воскресных прогулок 
+                советуем брать электровелосипеды</span
+              >
             </div>
           </div>
         </div>
-      </div>
-      <div class="questions-page">
+      </section>
+      <section class="questions-page">
         <div class="instructions-page">
           <div class="instructions-header">
             <span>Как пользоваться прокатом Велобайк?</span>
           </div>
           <div class="instructions-content">
             <div class="instructions-column">
-              <div class="instructions-column-img" >
-                <img src="./img/instruct-1.png" alt="">
+              <div class="instructions-column-img">
+                <img src="./img/instruct-1.png" alt="" />
               </div>
               <div class="instructions-column-content">
                 <div class="instructions-column-header">
-                  <span>Зарегистрируйтесь на сайте Велобайка и оплатите доступ</span>
+                  <span
+                    >Зарегистрируйтесь на сайте Велобайка и оплатите
+                    доступ</span
+                  >
                 </div>
                 <div class="instructions-column-text">
-                  <span>Регистрация займет 
-                    5 минут. Нужны только смартфон и карточка</span>
+                  <span
+                    >Регистрация займет 5 минут. Нужны только смартфон и
+                    карточка</span
+                  >
                 </div>
               </div>
             </div>
             <div class="instructions-column">
-              <div class="instructions-column-img" >
-                <img src="./img/instruct-2.png" alt="">
+              <div class="instructions-column-img">
+                <img src="./img/instruct-2.png" alt="" />
               </div>
               <div class="instructions-column-content">
                 <div class="instructions-column-header">
                   <span>Возьмите велосипед в точке проката</span>
                 </div>
                 <div class="instructions-column-text">
-                  <span>Доступные велосипеды можно посмотреть 
-                    на карте онлайн или 
-                    в приложении</span>
+                  <span
+                    >Доступные велосипеды можно посмотреть на карте онлайн или в
+                    приложении</span
+                  >
                 </div>
               </div>
             </div>
             <div class="instructions-column">
-              <div class="instructions-column-img" >
-                <img src="./img/instruct-3.png" alt="">
+              <div class="instructions-column-img">
+                <img src="./img/instruct-3.png" alt="" />
               </div>
               <div class="instructions-column-content">
                 <div class="instructions-column-header">
@@ -384,19 +442,20 @@
                   <span>А где найти классные маршруты вы уже знаете</span>
                 </div>
               </div>
-            </div>  
+            </div>
             <div class="instructions-column">
-              <div class="instructions-column-img" >
-                <img src="./img/instruct-4.png" alt="">
+              <div class="instructions-column-img">
+                <img src="./img/instruct-4.png" alt="" />
               </div>
               <div class="instructions-column-content">
                 <div class="instructions-column-header">
                   <span>Верните велосипед</span>
                 </div>
                 <div class="instructions-column-text">
-                  <span>Вставьте велосипед 
-                    в свободный порт 
-                    и дождитесь уведомления о завершении проката</span>
+                  <span
+                    >Вставьте велосипед в свободный порт и дождитесь уведомления
+                    о завершении проката</span
+                  >
                 </div>
               </div>
             </div>
@@ -415,10 +474,13 @@
                 <span>1</span>
               </div>
               <div class="question-card-header">
-                <span>Есть ли какие-то ограничения для использования велосипеда из проката?</span>
+                <span
+                  >Есть ли какие-то ограничения для использования велосипеда из
+                  проката?</span
+                >
               </div>
               <div class="question-card-arrow">
-                <img src="./img/down.png" alt="">
+                <img src="./img/down.png" alt="" />
               </div>
             </div>
             <div class="question-block-card">
@@ -427,18 +489,30 @@
                   <span>2</span>
                 </div>
                 <div class="question-card-header">
-                  <span>Получается, я могу проехать по маршруту совсем бесплатно? А в чём подвох?</span>
+                  <span
+                    >Получается, я могу проехать по маршруту совсем бесплатно? А
+                    в чём подвох?</span
+                  >
                 </div>
                 <div class="question-card-arrow">
-                  <img src="./img/up.png" alt="">
+                  <img src="./img/up.png" alt="" />
                 </div>
               </div>
               <div class="question-card-text">
                 <div>
-                  <span>Подвоха нет, информация о маршрутах бесплатная и по ним может проехаться любой желающий. Мы не создали ничего нового, а просто собрали самые классные маршруты Москвы в одном месте.</span>
+                  <span
+                    >Подвоха нет, информация о маршрутах бесплатная и по ним
+                    может проехаться любой желающий. Мы не создали ничего
+                    нового, а просто собрали самые классные маршруты Москвы в
+                    одном месте.</span
+                  >
                 </div>
                 <div>
-                  <span>Но если хотите нас отблагодарить, вы всегда можете купить аудиогид. Мы их записали с топовыми блогерами и инфлюэнсерами при поддержке опытных москвоведов</span>
+                  <span
+                    >Но если хотите нас отблагодарить, вы всегда можете купить
+                    аудиогид. Мы их записали с топовыми блогерами и
+                    инфлюэнсерами при поддержке опытных москвоведов</span
+                  >
                 </div>
               </div>
             </div>
@@ -447,10 +521,13 @@
                 <span>3</span>
               </div>
               <div class="question-card-header">
-                <span>А я могу проехать по маршруту на своём велосипеде или надо обязательно брать в прокате?</span>
+                <span
+                  >А я могу проехать по маршруту на своём велосипеде или надо
+                  обязательно брать в прокате?</span
+                >
               </div>
               <div class="question-card-arrow">
-                <img src="./img/down.png" alt="">
+                <img src="./img/down.png" alt="" />
               </div>
             </div>
             <div class="question-block-card">
@@ -458,10 +535,13 @@
                 <span>4</span>
               </div>
               <div class="question-card-header">
-                <span>Как подключить аудиогид? Могу ли я подделиться им с друзьями?</span>
+                <span
+                  >Как подключить аудиогид? Могу ли я подделиться им с
+                  друзьями?</span
+                >
               </div>
               <div class="question-card-arrow">
-                <img src="./img/down.png" alt="">
+                <img src="./img/down.png" alt="" />
               </div>
             </div>
             <div class="question-block-card">
@@ -469,10 +549,13 @@
                 <span>5</span>
               </div>
               <div class="question-card-header">
-                <span>Что делать, если на середине маршрута у меня сломался велосипед?</span>
+                <span
+                  >Что делать, если на середине маршрута у меня сломался
+                  велосипед?</span
+                >
               </div>
               <div class="question-card-arrow">
-                <img src="./img/down.png" alt="">
+                <img src="./img/down.png" alt="" />
               </div>
             </div>
           </div>
@@ -480,70 +563,73 @@
         <div class="questions-banner">
           <div class="questions-banner-content">
             <div class="questions-banner-text">
-              <span>С нами прокатилось уже почти 
-                8000 человек. Присоединяйтесь!</span>
+              <span
+                >С нами прокатилось уже почти 8000 человек.
+                Присоединяйтесь!</span
+              >
             </div>
             <div class="questions-banner-button">
               <a href="">Выбрать маршрут</a>
             </div>
           </div>
           <div class="questions-banner-img">
-            <img src="./img/heart.png" alt="">
+            <img src="./img/heart.png" alt="" />
           </div>
         </div>
         <div class="questions-mailing">
           <div class="questions-mailing-header">
-            <span>Еженедельная рассылка: 
-              новые маршруты одним письмом</span>
+            <span>Еженедельная рассылка: новые маршруты одним письмом</span>
           </div>
-            <form class="questions-mailing-form">
-              <div class="mailing-form-content">
-                <div class="mailing-form-input">
-                  <input type="text" id="text" placeholder=" ">
-                  <label for="text">Введите почту... </label>
-                </div>
-                <div class="mailing-form-text">
-                  <small>Передавая свои данные, вы принимаете пользовательское соглашение</small>
-                </div>
+          <form class="questions-mailing-form">
+            <div class="mailing-form-content">
+              <div class="mailing-form-input">
+                <input type="text" id="text" placeholder=" " />
+                <label for="text">Введите почту... </label>
               </div>
-              <div class="mailing-form-button">
-                <a href="#">Подписаться</a>
+              <div class="mailing-form-text">
+                <small
+                  >Передавая свои данные, вы принимаете пользовательское
+                  соглашение</small
+                >
               </div>
-            </form>
+            </div>
+            <div class="mailing-form-button">
+              <a href="#">Подписаться</a>
+            </div>
+          </form>
         </div>
-      </div>
+      </section>
+    </main>
     <footer>
       <div class="nav-list">
-        <div class="nav-smedia">
+        <nav class="nav-smedia">
           <div class="nav-smedia-around">
             <a href="">Around</a>
           </div>
           <div class="nav-smedia-svg">
-            <img src="./img/facebook.svg" alt="">
-            <img src="./img/twitter.svg" alt="">
-            <img src="./img/telegram.svg" alt="">
+            <img src="./img/facebook.svg" alt="" />
+            <img src="./img/twitter.svg" alt="" />
+            <img src="./img/telegram.svg" alt="" />
           </div>
-        </div>
-        <div class="nav-links">
+        </nav>
+        <nav class="nav-links">
           <a href="">Маршруты</a>
           <a href="">О городе</a>
           <a href="">Прокат велосипедов</a>
           <a href="">Контакты </a>
-        </div>
-        <div class="nav-email">
+        </nav>
+        <nav class="nav-email">
           <a href="">aroundbike@mail.ru</a>
-        </div>
-        <div class="nav-docs">
+        </nav>
+        <nav class="nav-docs">
           <a href="">Пользовательское соглашение</a>
           <a href="">Договор оферты</a>
-        </div>
+        </nav>
       </div>
-      <div class="line">
-      </div>
+      <div class="line"></div>
       <div class="rights">
         <span>2022. Все права защищены и принадлежат Around </span>
       </div>
     </footer>
-  </main>
-</body>
+  </body>
 </html>

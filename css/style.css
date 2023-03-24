@@ -1,74 +1,75 @@
-@import url('./bike-page.css');
-@import url('./city-page.css');
-@import url('./head-page.css');
-@import url('./question-page.css');
-@import url('./route-page.css');
+@import url("./bike-page.css");
+@import url("./city-page.css");
+@import url("./head-page.css");
+@import url("./question-page.css");
+@import url("./route-page.css");
 
 @font-face {
-  font-family: 'Nunito';
+  font-family: "Nunito";
   src: url("../fonts/Nunito/static/Nunito-Medium.ttf");
 }
 
 @font-face {
-  font-family: 'Nunito-Regular';
+  font-family: "Nunito-Light";
   src: url("../fonts/Nunito/static/Nunito-Light.ttf");
 }
 
 @font-face {
-  font-family: 'Raleway';
+  font-family: "Raleway-Bold";
   src: url("../fonts/Raleway/static/Raleway-Bold.ttf");
 }
 
 @font-face {
-  font-family: 'Raleway';
+  font-family: "Raleway";
   src: url("../fonts/Raleway/static/Raleway-Medium.ttf");
 }
 
 @font-face {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   src: url("../fonts/Roboto/Roboto-Medium.ttf");
 }
 
 @font-face {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   src: url("../fonts/Roboto/Roboto-Light.ttf");
 }
 
 @font-face {
-  font-family: 'Roboto-Regular';
+  font-family: "Roboto-Regular";
   src: url("../fonts/Roboto/Roboto-Regular.ttf");
 }
 
 @font-face {
-  font-family: 'Roboto-Bold';
+  font-family: "Roboto-Bold";
   src: url("../fonts/Roboto/Roboto-Bold.ttf");
 }
 
 @font-face {
-  font-family: 'Roboto-Black';
+  font-family: "Roboto-Black";
   src: url("../fonts/Roboto/Roboto-Black.ttf");
 }
 
+html{
+  font-size: 18px;
+}
 
 main {
   display: grid;
 }
 
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 body {
   margin: 0 auto;
   width: 1440px;
-  background: #FFFFFF;
-  display: grid;
+  background: #ffffff;
+  font-family: "Nunito";
+  
 }
-
-
-
-
-
 
 footer {
   height: 415px;
@@ -89,7 +90,7 @@ footer {
   height: 55px;
   width: 130px;
 
-  background: linear-gradient(286.4deg, #8DC1FF 30.45%, #D4E8FF 71.02%);
+  background: linear-gradient(286.4deg, #8dc1ff 30.45%, #d4e8ff 71.02%);
   border-radius: 70px;
 }
 
@@ -107,7 +108,7 @@ footer {
 
 .nav-smedia-around a {
   text-decoration: none;
-  font-family: 'Raleway';
+  font-family: "Raleway-Bold";
   font-style: normal;
   font-weight: 800;
   font-size: 22px;
@@ -121,6 +122,7 @@ footer {
 .nav-smedia-svg {
   display: flex;
   justify-content: space-around;
+  cursor: pointer
 }
 
 .nav-links {
@@ -131,7 +133,6 @@ footer {
 }
 
 .nav-links a {
-  font-family: 'Nunito';
   font-style: normal;
   text-decoration: none;
   font-weight: 600;
@@ -139,7 +140,7 @@ footer {
   line-height: 140%;
   text-align: center;
 
-  color: #E5E5E5;
+  color: #e5e5e5;
 }
 
 .nav-docs {
@@ -150,7 +151,6 @@ footer {
 }
 
 .nav-docs a {
-  font-family: 'Nunito';
   font-style: normal;
   text-decoration: none;
   font-weight: 600;
@@ -167,18 +167,18 @@ footer {
 }
 
 .nav-email a {
-  font-family: 'Nunito-Regular';
+  font-family: "Nunito-Light";
   font-style: normal;
   text-decoration: none;
   font-weight: 600;
   font-size: 18px;
   line-height: 140%;
 
-  color: #E5E5E5;
+  color: #e5e5e5;
 }
 
 .rights span {
-  font-family: 'Nunito-Regular';
+  font-family: "Nunito-Light";
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -195,11 +195,103 @@ footer {
 }
 
 
+/* 
+  .main-header {
+    max-width: 375px;
+  }
 
+  .header-logo a {
+    height: 55px;
+    width: 130px;
 
+    background: linear-gradient(286.4deg, #8dc1ff 30.45%, #d4e8ff 71.02%);
 
+    box-shadow: 9px 7px 15px 6px rgba(194, 194, 194, 0.18);
+    border-radius: 70px;
 
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 140%;
 
-  
+    text-align: center;
 
+    color: #000000;
+  }
+
+  .header-info {
+    width: 345px;
+    height: 126px;
+  }
+
+  .header-info h3 {
+    width: 345px;
+    height: 126px;
+
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 110%;
+
+    letter-spacing: 0.01em;
+
+    color: #000000;
+  }
+
+  .header-info span {
+    width: 345px;
+    height: 116px;
+    left: 15px;
+    top: 645px;
+
+    font-family: "  ";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 145%;
+
+    color: #000000;
+  }
+
+  .header-image {
+    display: none;
+    background: url("../img/cycle-mb.png");
+  }
+
+  .header-nav {
+    display: none;
+  }
+
+  .header-curt {
+    display: none;
+  }
+
+  .header-info button {
+    width: 345px;
+    height: 55px;
+    left: 15px;
+    top: 786px;
+
+    background: #000000;
+
+    box-shadow: 9px 7px 15px 6px rgba(194, 194, 194, 0.18);
+    border-radius: 50px;
+  }
+
+  .header-info button span {
+    width: 128px;
+    height: 19px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    text-align: center;
+
+    color: #ffffff;
+  }  */
 

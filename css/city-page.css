@@ -1,134 +1,85 @@
 .city-page {
-	display: grid;
-	grid-template-rows: 1fr 3fr 1fr 2fr 1fr 2fr;
-	grid-template-areas: 
-	"city-header"
-	"city-images-one"
-	"city-text-two"
-	"city-images-two"
-	"city-text-three"
-	"city-images-three";
-	max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+  max-width: 1440px;
 }
 
 .city-header {
-	grid-area: city-header;
-	margin-top: 130px;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
+  margin-top: 130px;
+  display: flex;
+  gap: 30px;
 }
 
 .city-text {
-	width: 579px;
-	height: 100px;
-	font-family: 'Nunito';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 18px;
-	line-height: 140%;
+  width: 579px;
+  height: 100px;
+  font-family: 'Nunito-Light';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+
+  transform: translateX(306px);
+
+  color: #000000; 
 }
 
-.city-header-h1 {
-	font-family: 'Nunito';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 18px;
-	line-height: 140%;
-
-	color: #000000;
+.city-header-heading {
+  width: 100%;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  
+  color: #000000;
 }
 
-.city-images-one {
-	grid-area: city-images-one;
-	max-width: 1440px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+.city-images {
+  max-width: 1440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
 }
 
 .city-img-ellipse-1 {
-	transform: translateY(-102px) translateX(-326px);
-}
-
-.city-images-two {
-	grid-area: city-images-two;
-	max-width: 1440px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.city-images-trhee {
-	grid-area: city-images-three;
-	max-width: 1440px;
-
-	transform: translateX(116px);
+  transform: translateY(-102px) translateX(-326px);
 }
 
 .city-img-el {
-	width: 178.98px;
-	height: 80.99px;
+  width: 178.98px;
+  height: 80.99px;
 
-	background: #000000;
-	transform: matrix(0.71, -0.71, 0.71, 0.71, 0, 0);
+  background: #000000;
+  transform: matrix(0.71, -0.71, 0.71, 0.71, 0, 0);
 }
 
 .city-images-ellipse-1 {
-	transform: translateX(-339px) translateY(-113px);
+  transform: translate(-339px, -113px);
 }
 
 .city-img-first {
-	transform: translateX(590px) translateY(200px);
+  transform: translate(590px, 200px);
 }
 
 .city-img-second {
-	transform: translateX(148px) translateY(-8px);
-	z-index: -1;
+  transform: translate(138px, -8px);
+  z-index: -1;
 }
 
 .city-img-third {
-	transform: translateX(-54px) translateY(140px);
-	z-index: -1;
+  transform: translate(-54px, 140px);
+  z-index: -1;
 }
 
 .city-img-forth {
-	transform: translateX(-390px) translateY(147px);
+  transform: translate(-390px, 147px);
 }
 
 .city-img-fifth {
-	transform: translateX(-572px); 
-	z-index: -1;
-}
-
-.city-text-two {
-	grid-area: city-text-two;
-	width: 579px;
-	height: 115px;
-
-	transform: translateX(130%) translateY(60%);
-
-	font-family: 'Nunito';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 18px;
-	line-height: 130%;
-
-	color: #000000;
-}
-
-.city-text-three {
-	grid-area: city-text-three;
-	width: 579px;
-	height: 115px;
-
-	transform: translateX(130%) translateY(60%);
-
-	font-family: 'Nunito';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 18px;
-	line-height: 130%;
-
-	color: #000000;
+  transform: translateX(-590px);
+  z-index: -1;
 }

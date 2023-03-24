@@ -1,179 +1,176 @@
 header {
-    display: grid;
-    grid-template-rows: 1fr 7fr ;
-    grid-template-columns: 3fr 5fr 2fr;
-    grid-template-areas: 
-    "main-header main-header main-header"
-    "header-info header-info header-image";
-    min-height: 799px;
-    align-items: center;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
 
 .main-header {
-    grid-area: main-header;
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  gap: 150px;
+  margin-top: 30px;
+  width: 90%;
+  height: 55px;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  /* width: 100%; */
 }
 
 .header-logo {
-    grid-area: header-logo;  
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 130px;
-    height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10%;
 
-    margin-left: 50px;
+  border-radius: 70px;
+  background: linear-gradient(286.4deg, #8dc1ff 30.45%, #d4e8ff 71.02%);
+  box-shadow: 9px 7px 15px 6px rgba(194, 194, 194, 0.18);
 
-    border-radius: 70px;
-    background: linear-gradient(286.4deg, #8DC1FF 30.45%, #D4E8FF 71.02%);
-    box-shadow: 9px 7px 15px 6px rgba(194, 194, 194, 0.18);
+  font-family: 'Raleway-Bold';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px;
+  text-align: center;
+  color: #000000;
+  text-decoration: none;   
+
+  cursor: pointer
 }
 
 .header-logo a {
-    text-decoration: none;
-    color: #000000;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 22px;
-    line-height: 140%;
+  text-decoration: none;
+  color: #000000;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px;
 }
 
 .header-nav {
-    grid-area: header-nav;
-    justify-items: center;
-    width: 625px;
-    height: 55px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+  justify-items: center;
+  width: 51%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 
-    border-radius: 70px;
-    background: #FFFFFF;
-    box-shadow: 9px 7px 15px 6px rgba(194, 194, 194, 0.18);
+  border-radius: 70px;
+  background: #ffffff;
+  box-shadow: 9px 7px 15px 6px rgba(194, 194, 194, 0.18);
+}
+
+.header-nav-mb {
+  display: none;
+}
+
+.header-cart-mb {
+  display: none;
 }
 
 .header-nav a {
-    text-decoration: none;
-    color: #000000;
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 140%;  
+  text-decoration: none;
+  color: #000000;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 140%;
 }
 
-.header-curt {
-    grid-area: header-curt;
-    width: 132px;
-    height: 55px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    border-radius: 70px;
-    background: #FFFFFF;
-    box-shadow: 9px 7px 15px 6px rgba(194, 194, 194, 0.18);
+.nav-links-list {
+  list-style-type: none;
+  display: flex;
+  gap: 40px;
 }
 
-.header-curt a {
-    justify-self: right;
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 140%;
-    text-decoration: none;
+.header-cart {
+  width: 132px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    color: #000000;
+  border-radius: 70px;
+  background: #ffffff;
+  box-shadow: 9px 7px 15px 6px rgba(194, 194, 194, 0.18);
+}
+
+.header-cart a {
+  justify-self: right;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 140%;
+  text-decoration: none;
+
+  color: #000000;
 }
 
 .header-info {
-    grid-area: header-info;
-    width: 775px;
-    height: 329px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-
-    transform: translateX(132px) translateY(-95px);
+  width: 775px;
+  height: 329px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
+
 
 .header-image {
-    width: 827.54px;
-    height: 869.84px;
-    display: grid;
-    grid-column-start: 2;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    z-index: -1;
-
-    grid-template-areas: 
-    "image"
-    "header-img-text";
-    grid-template-rows: 2fr ;
-
-    transform: translateX(125px) translateY(-198px);
-    }
-
-.header-image img {
-    grid-area: image;
+  z-index: -1;
+  transform: translate(-166px, -76px);
+  width: 48%;
 }
 
-.header-img-text {
-    grid-area: header-img-text;
-    display: grid;
-    flex-direction: column;
-    align-items: flex-end;
-    z-index: 1;
-    grid-row-start: 1;
-    grid-row-end: 3;
+.header-image h3 {
+  margin: 0;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.1rem;
+  line-height: 110%;
 }
 
-.header-image img {
-    grid-area: header-image;
-    width: 659.33px;
+#mobile {
+  display: none;
 }
+
 
 .header-info h3 {
-    margin: 0;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 110%;
+  margin: 0;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.1rem;
+  line-height: 110%;
 }
 
 .header-info span {
-    width: 508px;
-    height: 90px;
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 135%;
-
-    color: #000000;
+  font-family: 'Nunito-Light';
+  width: 508px;
+  height: 90px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 135%;
+  color: #000000;
 }
 
 .header-info button {
-    width: 307px;
-    height: 55px;
+  width: 39%;
+  height: 55px;
 
-    box-shadow: 9px 7px 15px 6px rgba(194, 194, 194, 0.18);
-    border-radius: 50px;
-    background: #000000;
-}
+  box-shadow: 9px 7px 15px 6px rgba(194, 194, 194, 0.18);
+  border-radius: 50px;
+  background: #000000;
 
-.header-info button span {
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 140%;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 140%;
+  text-align: center;
 
-    text-align: center;
+  color: #ffffff;
 
-    color: #FFFFFF;
+  cursor: pointer;
 }

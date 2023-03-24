@@ -1,145 +1,142 @@
-
 .bike-page {
-	display: grid;
-	grid-template-areas: 
-	". bake-header ."
-	". bike-content ."
-	". bike-text-container ."
-	".          .          .";
-	grid-template-columns: 1fr 4fr 1fr;
-	grid-template-rows: 2fr 4fr 1fr 0.5fr;
+  display: grid;
+  grid-template-areas:
+    ". bake-header ."
+    ". bike-content ."
+    ". bike-text-container .";
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-rows: 2fr 2fr 3fr;
 
-	width: 1440px;
-	height: 1432px;
+  max-width: 1440px;
 
-	padding-bottom: 80px;
 
-	background: #000000;
-	border-radius: 75px;
+  background: #000000;
+  border-radius: 75px;
 }
 
-.bake-header {
-	grid-area: bake-header;
-	width: 1189px;
-	height: 240px;
-	font-family: 'Raleway';
-	font-style: normal;
-	font-weight: 800;
-	font-size: 68px;
-	line-height: 80px;
-	text-align: center;
+.bike-header {
+  grid-area: bake-header;
+  margin: auto;
+  max-width: 1189px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 68px;
+  line-height: 80px;
+  text-align: center;
 
-	color: #FFFFFF;
+  color: #ffffff;
 }
 
-.bake-header span {
-	font-family: 'Raleway';
-	font-style: normal;
-	font-weight: 800;
-	font-size: 35px;
-	line-height: 41px;
-	padding: 15px 25px;
+.bike-header span {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 41px;
+  padding: 15px 25px;
 
+  text-align: center;
 
-	text-align: center;
+  color: #ffffff;
 
-	color: #FFFFFF;
-
-	border: 1px solid #FFFFFF;
-	border-radius: 50%;
+  border: 1px solid  #ffffff;
+  border-radius: 50%;
 }
 
-.number-twenty-three,
-.number-sixty-five {
-	width: 418px;
-	height: 422px;
-	align-self: center;
+.bike-content-item {
+  width: 308px;
+  height: 58px;
 
-	font-family: 'Roboto-Black';
-	font-style: normal;
-	font-weight: 900;
-	font-size: 360px;
-	line-height: 422px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 130%;
 
-	text-align: center;
+  color: #ffffff;
+}
 
-	background: linear-gradient(313.87deg, #8DC1FF 44.77%, #D0E5FF 78.73%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+.bike-content-item-num {
+  width: 418px;
+  height: 422px;
+  align-self: center;
+
+  font-family: "Roboto-Black";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 360px;
+  line-height: 422px;
+
+  text-align: center;
+
+  background: linear-gradient(313.87deg, #8dc1ff 44.77%, #d0e5ff 78.73%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .bike-content {
-	grid-area: bike-content; 
-	display: flex;
+  grid-area: bike-content;
+  display: flex;
 }
 
 .bike-text-container {
-	grid-area: bike-text-container;
-	display: flex;
+  grid-area: bike-text-container;
+  display: flex;
+  gap: 30px;
+  width: 1234px;
+  justify-content: center;
+  margin: auto;
 }
 
-.bike-number-text {
-	max-height: 70px;
-	transform: translateX(174px) translateY(156px);
+.bike-content-item {
+  transform: translate(281px, 84px);
+  display: block;
 }
 
-.number-twenty-three {
-	transform: translateX(137px) translateY(-91px);
+.bike-content-item-num:first-child {
+  transform: translate(239px, -10px);
 }
 
-.number-sixty-five {
-	transform: translateX(-201px);
+.bike-content-item-num{
+  transform: translate(-59px, 102px); 
 }
 
-.number-details {
-	transform: translateX(182px) translateY(-300px);
+.bike-content-item-details {
+  transform: translate(-153px, 364px);
 }
 
-.bike-number-text {
-	font-family: 'Nunito';
-	font-style: normal;
-	font-weight: 800;
-	font-size: 22px;
-	line-height: 130%;
-}
+.bike-item-details {
+  width: 164px;
+  height: 164px;
 
-.number-details {
-	width: 164px;
-	height: 164px;
-
-	border-radius: 100%;
-	background: #F24C48;
-}
-
-.bike-content {
-	display: flex;	
+  transform: translate(-155px, 362px);
 }
 
 .bike-text-header {
-	font-family: 'Nunito';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 22px;
-	line-height: 130%;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 130%;
 
-	color: #FFFFFF;
-
+  color: #ffffff;
 }
 
 .bike-text-content {
-	font-family: 'Nunito';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 18px;
-	line-height: 130%;
+  font-family: "Nunito-Light";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
 
-	color: #FFFFFF;
-
+  color: #ffffff;
 }
 
 .bike-text {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	max-height: 120px;
-}   
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 377px;
+  height: 69px;
+
+  gap: 20px;
+}
